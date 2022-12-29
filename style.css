@@ -20,15 +20,12 @@ table, table td, table th{
     vertical-align: middle;
   }
   .border{
-    border-width: 1px;
-    border-style: solid;
+    border-width: 3px;
+    border-style: double;
     border-color: #cccccc;
     display: inline;
+    border-radius: 5px 5px;
     
   }
-  #hideaway {
-    display: none;
-  }
-  #reveal {
-    display: block;
-  }
+  
+  
