@@ -6,10 +6,7 @@ h1 {
     border-width: 1px;
     border-style: solid;
     border-color: #cccccc;
-    
-    
-
-}
+  }
 table, table td, table th{
     border: 1px solid #cccccc;
   }
@@ -28,5 +25,22 @@ table, table td, table th{
     
   }
   
-  
+  a {
+    position: absolute; top: 23px; left: 20px;
+    text-decoration: none;
+    padding: 5px 16px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: 3px solid black ;
+  }
+  .big1 {
+    font-size: larger;
+  }
+  .h2 {
+    padding-left: 250px;
+    }
+  #position {
+    font-size: larger;
+    padding-left: 20px;
+  }
   
