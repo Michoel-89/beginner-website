@@ -8,10 +8,10 @@ function hoverMessage(e){
 }
 plzWork.addEventListener( "click", hoverMessage);
 const changeColor = document.getElementById('changeColor');
-function date(event){
-    event.target.style.color = "purple";
+function changeTheColor(event){
+    event.target.style.color = "silver";
 };
-changeColor.addEventListener("mouseenter", date);
+changeColor.addEventListener("mouseenter", changeTheColor);
 function toggle(e){  
     const experiment = document.getElementById('experiment')
     if (experiment.style.display === "none") {
