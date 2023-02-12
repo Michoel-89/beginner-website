@@ -6,20 +6,12 @@ function hoverMessage(e){
     alert ('he will probably be MVP');
     console.log(e)
 }
-plzWork.addEventListener( "click", hoverMessage);
+plzWork.addEventListener( "click", hoverMessage());
 const changeColor = document.getElementById('changeColor');
 function changeTheColor(event){
     event.target.style.color = "silver";
 };
 changeColor.addEventListener("mouseenter", changeTheColor);
-function toggle(e){  
-    const experiment = document.getElementById('experiment')
-    if (experiment.style.display === "none") {
-        experiment.style.display = 'block';
-    } else {
-        experiment.style.display = 'none';
-    }
-}
 
 
 
