@@ -6,7 +6,7 @@ function hoverMessage(e){
     alert ('he will probably be MVP');
     console.log(e)
 }
-plzWork.addEventListener( "click", hoverMessage());
+plzWork.addEventListener( "click", hoverMessage);
 const changeColor = document.getElementById('changeColor');
 function changeTheColor(event){
     event.target.style.color = "silver";
