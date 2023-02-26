@@ -1,7 +1,7 @@
 #img1 {
   height: 700px;
   width: 600px;
-  position: absolute; top: 80px; left: 850px;
+  position: absolute; top: 80px; left: 650px;
   border: 3px solid gray ;
 }
 body {
@@ -41,6 +41,7 @@ table, table td, table th{
   }
   .big1 {
     font-size: larger;
+    max-width: 600px;
   }
   .h2 {
     padding-left: 250px;
