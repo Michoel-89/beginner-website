@@ -3,6 +3,7 @@
   width: 600px;
   position: absolute; top: 80px; left: 650px;
   border: 3px solid gray ;
+  
 }
 body {
     background-color: antiquewhite;
@@ -50,4 +51,5 @@ table, table td, table th{
     font-size: larger;
     padding-left: 20px;
   }
+  
   

@@ -7,9 +7,14 @@ function hoverMessage(){
 }
 alertMessage.addEventListener( "click", hoverMessage);
 const changeColor = document.getElementById('changeColor');
-function changeTheColor(event){
+function changeColorHandler(event){
     event.target.style.color = "silver";
 };
-changeColor.addEventListener("mouseenter", changeTheColor);
+function changeColorBack(event){
+    event.target.style.color = "black";
+};
+changeColor.addEventListener("mouseenter", changeColorHandler);
+changeColor.addEventListener("mouseleave", changeColorBack);
+
 
 
